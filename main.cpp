@@ -2,6 +2,7 @@
 
 int main() {
 using namespace std;
+/*
 int numeros [100];
 int numeros2[100];
 int n,i,j,k,orden=0;
@@ -24,7 +25,18 @@ int n,i,j,k,orden=0;
             for (int i = 0; i < n; ++i) {
                 cout << numeros[i] << endl;
             }
+*/
+int vector[]={1,2,3,4,5,6,7,8,9};
+int c,n=8;
+cout<<"Ingrese un numero"<<endl;
+cin>>c;
+    for (int i = 0; i <= c; ++i) {
+        if (c==vector[i]){
+            cout<<"El numero "<<c<<" Si se encuentra en la lista"<<endl;
+            cout<<"El numero se encuentra en la posicion: "<<i<<endl;
+        }
 
+    }
             return 0;
         }
-    }
+
